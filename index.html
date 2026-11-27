@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nullnow Computing | Your Software & Strategy Partner</title>
+    <meta
+      name="description"
+      content="Information Technology Services by Joshua Usheninte — Digital Entrepreneurship for Africa"
+    />
+
+    <!-- Google fintets: Space Grotesk, Inter, IBM Plex Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome 6 (Stroke/Regular & Solid/Brands) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Custom Dual-Layer Cursor -->
+    <div class="cursor-wrapper" aria-hidden="true">
+      <div class="cursor-dot" id="cursor-dot"></div>
+      <div class="cursor-ring" id="cursor-ring"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+      <div class="navbar-inner">
+        <a href="#top" class="brand-logo" data-glitch-link>
+          NULLNOW COMPUTING
+        </a>
+
+        <nav class="nav-links" aria-label="Primary Navigation">
+          <a href="#strategy" class="nav-link" data-glitch-link>/01 Strategy</a>
+          <a href="#capabilities" class="nav-link" data-glitch-link
+            >/02 Capabilities</a
+          >
+          <a href="#portfolio" class="nav-link" data-glitch-link>/03 Work</a>
+          <a href="#impact" class="nav-link" data-glitch-link>/04 Impact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button
+            type="button"
+            id="theme-toggle"
+            class="btn-ghost btn-compact theme-toggle-btn"
+            aria-label="Toggle dark and light theme"
+          >
+            <i class="fa-solid fa-circle-half-stroke" aria-hidden="true"></i>
+            <span id="theme-label" class="theme-label-text">DARK MODE</span>
+          </button>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSetu0RbOSJ1rqB1VJQr6gnyDKsHMhCpkK9qTsXu8V1j-IrXMw/viewform?usp=header"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary btn-compact desktop-only"
+          >
+            CONTACT US
+          </a>
+
+          <button
+            type="button"
+            id="mobile-menu-btn"
+            class="mobile-menu-btn"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobile-drawer"
+          >
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <aside
+      class="mobile-drawer"
+      id="mobile-drawer"
+      aria-label="Mobile Navigation"
+      aria-hidden="true"
+    >
+      <div class="mobile-drawer-header">
+        <span class="mono-label">/ NAVIGATION</span>
+        <button
+          type="button"
+          id="mobile-close-btn"
+          class="mobile-menu-btn"
+          aria-label="Close menu"
+        >
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </div>
+      <nav class="mobile-nav-list">
+        <a href="#strategy" class="mobile-nav-link">/ 01 STRATEGY</a>
+        <a href="#capabilities" class="mobile-nav-link">/ 02 CAPABILITIES</a>
+        <a href="#portfolio" class="mobile-nav-link">/ 03 WORK PORTFOLIO</a>
+        <a href="#impact" class="mobile-nav-link">/ 04 VALUE &amp; IMPACT</a>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSetu0RbOSJ1rqB1VJQr6gnyDKsHMhCpkK9qTsXu8V1j-IrXMw/viewform?usp=header"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary mobile-cta-btn"
+        >
+          CONTACT US
+        </a>
+      </nav>
+    </aside>
+
+    <main id="top">
+      <!-- HERO SECTION (100vh, Dot Grid + Grain Texture) -->
+      <section class="hero-section">
+        <div class="dot-grid-bg" aria-hidden="true"></div>
+        <div class="grain-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-left">
+            <div class="hero-overline-wrap">
+              <span class="mono-label hero-overline"
+                >// DIGITAL ENTREPRENEURSHIP FOR AFRICA</span
+              >
+              <div class="overline-rule"></div>
+            </div>
+
+            <h1
+              class="display-xl hero-headline"
+              id="hero-headline"
+              data-final-text="YOUR SOFTWARE & STRATEGY PARTNER."
+            >
+              YOUR SOFTWARE &amp; STRATEGY PARTNER.
+            </h1>
+
+            <p class="body-lg hero-subheadline">
+              Nullnow Computing establishes a strategic engineering front for
+              Africa&rsquo;s technological advancement&mdash;delivering
+              innovative, scalable, and locally relevant software systems led by
+              Joshua Usheninte.
+            </p>
+
+            <div class="hero-cta-group">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSetu0RbOSJ1rqB1VJQr6gnyDKsHMhCpkK9qTsXu8V1j-IrXMw/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-primary"
+              >
+                INITIATE PROJECT
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square"
+                  aria-hidden="true"
+                ></i>
+              </a>
+              <a href="#portfolio" class="btn-ghost"> EXPLORE SELECTED WORK </a>
+            </div>
+          </div>
+
+          <!-- Hero Right-Side Element: Option C — HUD Data Ring -->
+          <div class="hero-right" aria-hidden="true">
+            <div class="hud-container">
+              <svg
+                class="hud-svg"
+                viewBox="0 0 360 360"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Outer Static Crosshairs -->
+                <line x1="180" y1="10" x2="180" y2="350" class="hud-axis" />
+                <line x1="10" y1="180" x2="350" y2="180" class="hud-axis" />
+
+                <!-- Outer Clockwise Rotating Ring -->
+                <g class="hud-ring-cw">
+                  <circle
+                    cx="180"
+                    cy="180"
+                    r="150"
+                    class="hud-stroke-primary"
+                    stroke-dasharray="48 16 8 16"
+                  />
+                  <circle cx="180" cy="30" r="3.5" class="hud-dot" />
+                  <circle cx="330" cy="180" r="3.5" class="hud-dot" />
+                  <circle cx="180" cy="330" r="3.5" class="hud-dot" />
+                  <circle cx="30" cy="180" r="3.5" class="hud-dot" />
+                </g>
+
+                <!-- Middle Counter-Clockwise Ring -->
+                <g class="hud-ring-ccw">
+                  <circle
+                    cx="180"
+                    cy="180"
+                    r="112"
+                    class="hud-stroke-secondary"
+                    stroke-dasharray="12 10"
+                  />
+                  <circle cx="259" cy="101" r="3" class="hud-dot" />
+                  <circle cx="101" cy="259" r="3" class="hud-dot" />
+                </g>
+
+                <!-- Inner Precision Ring -->
+                <circle cx="180" cy="180" r="68" class="hud-stroke-inner" />
+                <rect
+                  x="168"
+                  y="168"
+                  width="24"
+                  height="24"
+                  class="hud-core-box"
+                />
+                <circle cx="180" cy="180" r="3" class="hud-dot" />
+              </svg>
+
+              <div class="hud-readout mono-label">
+                <span>SYS // NULLNOW.CORE</span>
+                <span>REGION // AFRICA [UTC+1]</span>
+                <span>STATUS // OPERATIONAL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 01: STRATEGIC OBJECTIVES -->
+      <section id="strategy" class="section-block" data-scanline-section>
+        <div class="container">
+          <div class="divider-rule" data-reveal-rule></div>
+
+          <div class="section-header" data-reveal>
+            <span class="section-index">/ 01</span>
+            <h2 class="display-lg">Strategic Objectives</h2>
+            <p class="body-lg section-lead">
+              Activating Digital Entrepreneurship&rsquo;s capacity for global
+              impact on the African continent through disciplined execution and
+              locally grounded innovation methodologies.
+            </p>
+          </div>
+
+          <div class="grid-4">
+            <article class="spec-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <span class="mono-label card-num">01 // LEADERSHIP</span>
+              <h3 class="display-md">Technological Leadership</h3>
+              <p class="body-text">
+                Adopt and adapt cutting-edge technologies to address
+                Africa&rsquo;s unique operational and infrastructural
+                challenges.
+              </p>
+            </article>
+
+            <article class="spec-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <span class="mono-label card-num">02 // ARCHITECTURE</span>
+              <h3 class="display-md">Innovation &amp; Solutions</h3>
+              <p class="body-text">
+                Develop tailored software solutions engineered to meet the
+                specific realities of diverse African markets.
+              </p>
+            </article>
+
+            <article class="spec-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <span class="mono-label card-num">03 // ACCESS</span>
+              <h3 class="display-md">Empowerment</h3>
+              <p class="body-text">
+                Enable individuals, founders, and enterprises through accessible
+                and impactful technological tools.
+              </p>
+            </article>
+
+            <article class="spec-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <span class="mono-label card-num">04 // EXPANSION</span>
+              <h3 class="display-md">Scale &amp; Reach</h3>
+              <p class="body-text">
+                Achieve a significant footprint across the continent, driving
+                measurable transformation across multiple sectors.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 02: CORE COMPETENCIES -->
+      <section
+        id="capabilities"
+        class="section-block section-surface"
+        data-scanline-section
+      >
+        <div class="container">
+          <div class="divider-rule" data-reveal-rule></div>
+
+          <div class="section-header" data-reveal>
+            <span class="section-index">/ 02</span>
+            <h2 class="display-lg">Core Competencies</h2>
+            <p class="body-lg section-lead">
+              Interdisciplinary execution uniting fullstack software engineering
+              with technical product management and IT operations.
+            </p>
+          </div>
+
+          <div class="grid-2">
+            <article class="spec-card competency-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <div class="competency-meta">
+                <span class="stack-badge">DISCIPLINE // SWE</span>
+                <i
+                  class="fa-solid fa-terminal card-icon"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <h3 class="display-md">
+                Forward Deployed Engineering &amp; Fullstack JavaScript
+              </h3>
+              <p class="body-text">
+                End-to-end software development focused on user-centric,
+                production-grade architectures, API ecosystems, custom CMS
+                platforms, and resilient cloud deployments.
+              </p>
+              <div class="competency-goal">
+                <span class="mono-label">GOAL:</span>
+                <span
+                  >Ensure user-centric and robust technological solutions.</span
+                >
+              </div>
+            </article>
+
+            <article class="spec-card competency-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <div class="competency-meta">
+                <span class="stack-badge">DISCIPLINE // PMO</span>
+                <i class="fa-solid fa-sitemap card-icon" aria-hidden="true"></i>
+              </div>
+              <h3 class="display-md">
+                Technical Product Management &amp; IT Operations
+              </h3>
+              <p class="body-text">
+                Product requirements definition, engineering team leadership,
+                enterprise data workflow mapping, DNS &amp; hosting
+                infrastructure, and phased rollout governance.
+              </p>
+              <div class="competency-goal">
+                <span class="mono-label">GOAL:</span>
+                <span
+                  >Oversee strategic planning, execution, and continuous
+                  improvement.</span
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 03: WORK PORTFOLIO (Dynamically Populated from portfolio.js) -->
+      <section id="portfolio" class="section-block" data-scanline-section>
+        <div class="container">
+          <div class="divider-rule" data-reveal-rule></div>
+
+          <div class="portfolio-header-row" data-reveal>
+            <div class="section-header">
+              <span class="section-index">/ 03</span>
+              <h2 class="display-lg">Selected Work &amp; Engagements</h2>
+              <p class="body-lg section-lead">
+                Production systems, digital architectures, and technical
+                leadership delivered across software, creative media,
+                enterprise, and public sectors.
+              </p>
+            </div>
+
+            <div class="portfolio-controls">
+              <span class="mono-label" id="portfolio-count">00 PROJECTS</span>
+              <div
+                class="filter-bar"
+                role="group"
+                aria-label="Filter portfolio"
+              >
+                <button
+                  type="button"
+                  class="filter-btn active"
+                  data-filter="ALL"
+                >
+                  ALL
+                </button>
+                <button
+                  type="button"
+                  class="filter-btn"
+                  data-filter="FULLSTACK"
+                >
+                  FULLSTACK
+                </button>
+                <button
+                  type="button"
+                  class="filter-btn"
+                  data-filter="SOFTWARE & DATA"
+                >
+                  SOFTWARE &amp; DATA
+                </button>
+                <button
+                  type="button"
+                  class="filter-btn"
+                  data-filter="STRATEGY & PMO"
+                >
+                  STRATEGY &amp; PMO
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Populated dynamically via app.js reading portfolio.js -->
+          <div class="portfolio-grid" id="portfolio-grid"></div>
+        </div>
+      </section>
+
+      <!-- SECTION 04: VALUE PROPOSITION CANVAS & SOCIAL IMPACT -->
+      <section
+        id="impact"
+        class="section-block section-surface"
+        data-scanline-section
+      >
+        <div class="container">
+          <div class="divider-rule" data-reveal-rule></div>
+
+          <div class="section-header" data-reveal>
+            <span class="section-index">/ 04</span>
+            <h2 class="display-lg">Value Proposition &amp; Advantage</h2>
+            <p class="body-lg section-lead">
+              Aligning technical execution directly with client pains and market
+              opportunities across Africa.
+            </p>
+          </div>
+
+          <!-- Value Proposition Canvas -->
+          <div class="grid-2 vpc-grid">
+            <article class="spec-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <span class="mono-label card-num"
+                >SEGMENT 01 // STARTUPS &amp; SMEs</span
+              >
+              <h3 class="display-md">Startups &amp; SMEs in Africa</h3>
+              <ul class="spec-list">
+                <li>
+                  <span class="mono-label">PAINS:</span> Limited access to
+                  advanced technologies, high development costs, and lack of
+                  in-house technical expertise.
+                </li>
+                <li>
+                  <span class="mono-label">GAINS:</span> Affordable, scalable
+                  solutions, enhanced competitiveness, and accelerated business
+                  growth.
+                </li>
+                <li>
+                  <span class="mono-label">VALUE PROPOSITION:</span>
+                  Cost-effective, scalable technology solutions that reduce
+                  time-to-market and operational costs.
+                </li>
+              </ul>
+            </article>
+
+            <article class="spec-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <span class="mono-label card-num">SEGMENT 02 // ENTERPRISE</span>
+              <h3 class="display-md">Established Enterprises</h3>
+              <ul class="spec-list">
+                <li>
+                  <span class="mono-label">PAINS:</span> Outdated legacy
+                  systems, organizational resistance to change, and complex
+                  integration challenges.
+                </li>
+                <li>
+                  <span class="mono-label">GAINS:</span> Modernized operations,
+                  improved internal efficiency, and sustained market relevance.
+                </li>
+                <li>
+                  <span class="mono-label">VALUE PROPOSITION:</span>
+                  Comprehensive digital transformation services, including
+                  system overhauls and staff training.
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Differentiation & Social Impact -->
+          <div class="grid-3 advantage-grid">
+            <article class="spec-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <span class="mono-label card-num">ADVANTAGE // 01</span>
+              <h3 class="display-md">Local Expertise</h3>
+              <p class="body-text">
+                Deep understanding of African markets ensures culturally
+                relevant, practical software systems built for real operating
+                environments.
+              </p>
+            </article>
+
+            <article class="spec-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <span class="mono-label card-num">ADVANTAGE // 02</span>
+              <h3 class="display-md">Agility &amp; End-to-End Delivery</h3>
+              <p class="body-text">
+                Interdisciplinary background allows rapid adaptation to market
+                shifts, integrating business strategy directly with technical
+                execution.
+              </p>
+            </article>
+
+            <article class="spec-card" data-reveal>
+              <div class="card-top-bar"></div>
+              <span class="mono-label card-num"
+                >COMMITMENT // SOCIAL IMPACT</span
+              >
+              <h3 class="display-md">Sustainable Development</h3>
+              <p class="body-text">
+                Empowering local businesses with competitive digital tools while
+                actively engaging in initiatives that promote technological
+                literacy and education.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER (Always #232425 Dark Surface with Grain Overlay) -->
+    <footer class="site-footer">
+      <div class="grain-overlay" aria-hidden="true"></div>
+      <div class="container footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand" data-reveal>
+            <span class="footer-logo">NULLNOW COMPUTING</span>
+            <p class="footer-tagline">
+              Digital Entrepreneurship for Africa &mdash; Software Engineering,
+              Technical Product Management &amp; Digital Transformation.
+            </p>
+            <a href="mailto:joshua@null.com.ng" class="footer-email">
+              <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+              joshua@null.com.ng
+            </a>
+          </div>
+
+          <div class="footer-links-group" data-reveal>
+            <span class="mono-label footer-col-title">// DIRECT CHANNELS</span>
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="https://linkedin.com/company/nullnow-computing/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer-link"
+                >
+                  <span>LinkedIn: linkedin.com/company/nullnow-computing/</span>
+                  <i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/nullthefirst"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer-link"
+                >
+                  <span>GitHub: github.com/nullthefirst</span>
+                  <i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSetu0RbOSJ1rqB1VJQr6gnyDKsHMhCpkK9qTsXu8V1j-IrXMw/viewform?usp=header"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer-link"
+                >
+                  <span>Contact Us: Project Inquiry Form</span>
+                  <i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            &copy; <span id="copyright-year"></span> Joshua Usheninte. All
+            Rights Reserved.
+          </p>
+          <span class="mono-label footer-tz">TIMEZONE // UTC+1 (WAT)</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Data File (Easily editable standalone array) -->
+    <script src="portfolio.js"></script>
+    <!-- Core Motion, Theme Switcher, Cursor & DOM Hydration -->
+    <script src="app.js"></script>
+  </body>
+</html>
