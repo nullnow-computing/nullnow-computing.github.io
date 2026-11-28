@@ -1,3 +1,3 @@
-# [Joshua Usheninte](https://usheninte.online)
+# [Joshua Usheninte Dangana](https://usheninte.online)
 
 Information Technology Services
